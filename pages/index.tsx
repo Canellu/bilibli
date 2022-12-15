@@ -1,7 +1,4 @@
-import { Inter } from '@next/font/google';
 import Head from 'next/head';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
@@ -9,6 +6,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
+      <h1>Hei BAOOOO! 🥟</h1>
     </>
   );
 }
