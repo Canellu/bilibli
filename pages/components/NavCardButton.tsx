@@ -3,7 +3,7 @@ import Image from 'next/image';
 const NavCardButton = ({ children }: { children: React.ReactNode }) => {
   return (
     <article className='relative group'>
-      <button className='bg-red-400 rounded-full w-14 h-14 flex justify-center group-hover:bg-sky-100 items-center border-2 border-white group-hover:scale-[2.5] duration-300 group-hover:-translate-x-10 group-hover:translate-y-8 z-10 absolute'>
+      <button className='bg-fuchsia-400 rounded-full w-14 h-14 flex justify-center group-hover:bg-sky-100 items-center border-2 border-white group-hover:scale-[2.5] duration-300 group-hover:-translate-x-10 group-hover:translate-y-8 z-10 absolute'>
         🥟
         <Image
           src='/profile_pic.jfif'
